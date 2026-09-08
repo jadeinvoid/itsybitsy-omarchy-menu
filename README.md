@@ -24,7 +24,7 @@ but it can be used independently.
 
 Based on the built-in `omarchy.menu` plugin from
 [Omarchy](https://github.com/omacom/omarchy), with visual customizations by
-Jade Yejin Cho.
+Jade Cho.
 
 ## License
 
