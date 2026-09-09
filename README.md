@@ -8,6 +8,7 @@ An Omarchy menu plugin with randomized colors from the Itsybitsy palette.
 - Matching color accents for the selected icon and arrow
 - Subtle translucent selection background
 - Automatic replacement and restoration of the built-in Omarchy menu
+- App-list fallback for Omarchy versions that do not inject the menu app library
 
 ## Installation
 

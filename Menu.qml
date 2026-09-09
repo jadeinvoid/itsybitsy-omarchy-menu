@@ -87,7 +87,9 @@ Item {
 
   // Shared application engine (entries, hidden filters, icons, launch,
   // removal), owned by the shell and also used by the standalone launcher.
-  readonly property var appLibrary: root.shell ? root.shell.appLibrary : null
+  FallbackAppLibrary { id: fallbackAppLibrary }
+  readonly property var appLibrary: root.shell && root.shell.appLibrary
+    ? root.shell.appLibrary : fallbackAppLibrary
   property bool deleteConfirmOpen: false
   property var deleteTarget: null
   function randomizeSelectionAccent() {
